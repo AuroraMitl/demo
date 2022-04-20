@@ -22,15 +22,15 @@ public class StudentConfiguration {
             Student masha = new Student(
                     "Masha",
                     "mashkaMishkina@les.com",
-                    LocalDate.of(2020, JANUARY,5),
-                    21
+                    LocalDate.of(2020, 1, 5)
+
             );
 
             Student misha = new Student(
                     "Misha",
                     "misha@les.com",
-                    LocalDate.of(2010, MAY,4),
-                    25
+                    LocalDate.of(2010, 5,4)
+
             );
 
             studentRepository.saveAll(
